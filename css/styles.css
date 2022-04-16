@@ -113,29 +113,6 @@ body {
   .header-item:not(:last-child) {
     margin-right: 50px;
   }
-.header-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  margin-left: 50px;
-
-}
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--accent-color);
-}
-.header-tel:hover .header-tel-icon {
-  fill: var(--accent-color);
-}
-.header-tel:focus .header-tel-icon {
-  fill: var(--accent-color);
-}
-.header-tel-icon {
-  fill: #757575;
-  margin: 0;
-}
 
 .header-mail {
   font-weight: 500;
@@ -143,6 +120,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -156,9 +135,41 @@ body {
 }  
 .header-mail-icon {
   fill: #757575;
+  margin-right: 10px;
 }
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-tel:hover .header-tel-icon {
+  fill: var(--accent-color);
+}
+
+.header-tel:focus .header-tel-icon {
+  fill: var(--accent-color);
+}
+
+.header-tel-icon {
+  fill: #757575;
+  margin-right: 10px;
+}
+
 .header-connect {
   margin-left: auto;
+  display: flex;
 }
 
   /* -----hero----- */
