@@ -44,7 +44,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .logo {
   font-family: 'Raleway',sans-serif;
@@ -523,8 +523,10 @@ margin-right: 8px;
   flex-basis: calc(100% / 3 - var(--typical-margin-gap));
   margin-left: var(--typical-margin-gap);
   margin-top: var(--typical-margin-gap);
+    cursor: pointer;
 }
-.projects-works-item:hover {
+.projects-works-item:hover,
+.projects-works-item:focus {
   box-shadow: var(--projects-card-shadow)
 }
 
