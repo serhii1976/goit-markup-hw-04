@@ -228,6 +228,7 @@ body {
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 30px;
 }
 .antena::before {
   background-image: url(../images/icons/antenna.svg);
